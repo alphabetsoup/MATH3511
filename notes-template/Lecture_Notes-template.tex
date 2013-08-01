@@ -1,0 +1,324 @@
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lecture Specific Information to Fill Out
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\LectureTitle}{Lecture \#2 Notes}
+%\newcommand{\LectureDate}{\today}
+\newcommand{\LectureDate}{August\ 30,\ 2011}
+\newcommand{\LectureClassName}{ECE\ 858}
+\newcommand{\LatexerName}{Miguel\ Wong}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Change "article" to "report" to get rid of page number on title page
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{setspace}
+\usepackage{Tabbing}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{soul,color}
+\usepackage{graphicx,float,wrapfig}
+\usepackage{afterpage}
+\usepackage{abstract}
+
+% In case you need to adjust margins:
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+% Setup the header and footer
+\pagestyle{fancy}
+\lhead{\LatexerName}
+\chead{\LectureClassName: \LectureTitle}
+\rhead{\LectureDate}
+\lfoot{\lastxmark}
+\cfoot{}
+\rfoot{Page\ \thepage\ of\ \pageref{LastPage}}
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some tools
+\newcommand{\enterTopicHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}
+\newcommand{\exitTopicHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+                                   \nobreak\extramarks{#1}{}\nobreak}
+
+\newlength{\labelLength}
+\newcommand{\labelAnswer}[2]
+  {\settowidth{\labelLength}{#1}
+   \addtolength{\labelLength}{0.25in}
+   \changetext{}{-\labelLength}{}{}{}
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#2\end{minipage}}
+   \marginpar{\fbox{#1}}
+
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   \changetext{}{+\labelLength}{}{}{}}
+
+\setcounter{secnumdepth}{0}
+\newcommand{\TopicName}{}
+\newcounter{TopicCounter}
+\newenvironment{Topic}[1][Problem \arabic{TopicCounter}]
+  {\stepcounter{TopicCounter}
+   \renewcommand{\TopicName}{#1}
+   \section{\TopicName}
+   \enterTopicHeader{\TopicName}}
+  {\exitTopicHeader{\TopicName}}
+  
+\setcounter{secnumdepth}{0}
+\newcommand{\ExampleSectionName}{}
+\newcounter{ExampleSectionCounter}[TopicCounter]
+\newenvironment{ExampleSection}[1][Example \arabic{ExampleSectionCounter}]
+  {\stepcounter{ExampleSectionCounter}
+   \renewcommand{\ExampleSectionName}{#1}
+   \section{\ExampleSectionName}
+   \enterTopicHeader{\ExampleSectionName}}
+  {\exitTopicHeader{\ExampleSectionName}}
+
+\setcounter{secnumdepth}{0}
+\newcounter{ExampleBoxCounter}[TopicCounter]
+\newcommand{\examplebox}[1]
+  {
+  % We put this space here to make sure we're disconnected from the previous
+   % passage
+   \stepcounter{ExampleBoxCounter}
+   \noindent\fbox{\begin{minipage}[c]{\columnwidth}#1\end{minipage}}\enterTopicHeader{\ExampleSectionName}\exitTopicHeader{\ExampleSectionName}\marginpar{\fbox{\#\arabic{ExampleBoxCounter}}}
+   % We put the blank space above in order to make sure this
+   % \marginpar gets correctly placed.
+   \vskip10pt
+   }
+
+\renewcommand{\contentsname}{{\normalsize Topics Covered}}
+\renewcommand{\abstractname}{\LectureTitle\ Summary}
+\renewcommand{\absnamepos}{flushleft}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{spacing}{1.1}
+\newpage
+
+\begin{abstract}
+Aliquam erat volutpat. Vivamus dictum volutpat urna. Sed tempor
+interdum sapien. Cras id mi in nunc aliquet placerat. Maecenas
+gravida accumsan ipsum. Integer nec elit vitae ligula pretium
+tincidunt. Sed libero metus, condimentum vel, suscipit et, varius
+id, mi. Nunc accumsan pharetra leo. Pellentesque et est quis tellus
+adipiscing scelerisque. Mauris lacinia erat quis nulla. Nunc
+vulputate. Cras pretium libero sed elit. Sed lectus. Cras mauris
+odio, ullamcorper a, dictum non, mattis id, urna.
+\end{abstract}
+
+\tableofcontents
+\addtocontents{toc}{~\hfill\textbf{Page}\par}
+\vskip10pt
+\hrule
+\vskip10pt
+
+% When topics are long, it may be desirable to put a \newpage or a
+% \clearpage before each Topic environment
+%\newpage
+\begin{Topic}[Derivatives \Roman{TopicCounter}]
+Aliquam erat volutpat. Vivamus dictum volutpat urna. Sed tempor
+interdum sapien. Cras id mi in nunc aliquet placerat. Maecenas
+gravida accumsan ipsum. Integer nec elit vitae ligula pretium
+tincidunt. Sed libero metus, condimentum vel, suscipit et, varius
+id, mi. Nunc accumsan pharetra leo. Pellentesque et est quis tellus
+adipiscing scelerisque. Mauris lacinia erat quis nulla. Nunc
+vulputate. Cras pretium libero sed elit. Sed lectus. Cras mauris
+odio, ullamcorper a, dictum non, mattis id, urna. Suspendisse sed
+ligula.
+\end{Topic}
+
+\begin{Topic}[Derivatives \Roman{TopicCounter}]
+Aliquam erat volutpat. Vivamus dictum volutpat urna. Sed tempor
+interdum sapien. Cras id mi in nunc aliquet placerat. Maecenas
+gravida accumsan ipsum. Integer nec elit vitae ligula pretium
+tincidunt. Sed libero metus, condimentum vel, suscipit et, varius
+id, mi. Nunc accumsan pharetra leo. Pellentesque et est quis tellus
+adipiscing scelerisque. Mauris lacinia erat quis nulla. Nunc
+vulputate. Cras pretium libero sed elit. Sed lectus. Cras mauris
+odio, ullamcorper a, dictum non, mattis id, urna. Suspendisse sed
+ligula.
+
+\begin{ExampleSection}
+Ut lorem. Pellentesque rhoncus adipiscing sem. Aenean quis orci a
+dui fringilla semper. Phasellus ut metus. Nam arcu ipsum, facilisis
+pharetra, dapibus non, fringilla a, pede. Donec pede urna, mattis
+non, tempor ut, pulvinar vel, nisl. Cras erat nunc, volutpat eu,
+sollicitudin id, elementum id, nunc. Phasellus ut arcu. Sed
+consequat diam ac quam. Nunc condimentum malesuada tortor. Lorem
+ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Quisque sed tellus eu nunc auctor nonummy. Etiam venenatis magna
+varius ante. Aliquam justo. Proin eu mauris. Quisque ac urna id nunc
+ultricies sagittis. Ut fermentum sagittis leo. Quisque vel massa ac
+nisl egestas convallis. Donec tempus tincidunt elit. Fusce enim
+sapien, rhoncus porttitor, faucibus tincidunt, cursus lacinia,
+mauris. Morbi ut velit at elit tristique aliquam. Donec
+consectetuer. Nulla consectetuer. Nunc ac sem. Donec tristique felis
+quis neque. Aenean ac quam sit amet odio semper vehicula. Donec
+faucibus, nisl quis tincidunt suscipit, pede risus varius risus,
+eget feugiat purus mauris vel erat.\\
+
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+\end{ExampleSection}
+
+\begin{ExampleSection}
+\examplebox{Proin enim ligula, tincidunt id, rhoncus sed, tincidunt ac, ipsum.
+Quisque sit amet lorem. Sed aliquet quam placerat dui. Sed sem arcu,
+condimentum pulvinar, consectetuer sit amet, vehicula vitae, leo.
+Suspendisse potenti. Nulla eget turpis. Nunc dui nunc, mollis id,
+commodo ac, porta vel, felis. Sed cursus. Pellentesque rutrum
+convallis sapien. Donec metus dui, consequat vitae, sodales eget,
+consequat vitae, arcu. Phasellus scelerisque consectetuer mauris.
+Nam id tellus aliquam neque consectetuer congue. Fusce non lacus sed
+neque lobortis tempus.}
+\end{ExampleSection}
+
+\begin{ExampleSection}
+Curabitur ut dui. Fusce ultrices suscipit augue. Quisque ornare.
+Morbi dui odio, facilisis ut, malesuada vitae, lacinia at, diam.
+Fusce massa quam, gravida ac, pulvinar ut, eleifend vel, lorem.
+Maecenas luctus. Nullam ultrices placerat velit. Quisque
+sollicitudin est. Nullam diam tortor, rutrum non, commodo a,
+vehicula ut, justo. Etiam blandit, nulla vel lobortis porta, tortor
+ligula sagittis neque, in convallis tellus sem nec nunc. Nulla
+scelerisque wisi ac augue. Suspendisse vitae neque in erat venenatis
+imperdiet. Donec feugiat velit at nisl.\\
+
+\examplebox{Nunc at magna. Nunc vestibulum ante. Suspendisse viverra erat in
+dui. Vestibulum suscipit eros. Fusce porta orci in quam ultricies
+accumsan. In viverra, nunc nec eleifend facilisis, magna leo rutrum
+augue, at sodales lacus nisl nec mi. In ut ipsum at ipsum auctor
+tristique. In magna arcu, mattis eget, lobortis eu, iaculis at,
+arcu. Aliquam consequat, quam eget sollicitudin iaculis, arcu ante
+accumsan justo, sed luctus libero pede eget tellus. Nullam
+sollicitudin. Nulla pulvinar. Cras et leo. Fusce nec urna ut wisi
+varius varius. In facilisis, nulla a consequat ullamcorper, mauris
+diam euismod turpis, eu tincidunt ipsum nisl ut felis. Ut
+adipiscing. Quisque eu massa. Vestibulum justo. Aliquam facilisis
+dictum nulla. Aliquam auctor, tellus id porttitor vestibulum, mi
+lacus rutrum metus, in congue sapien est vel enim. Proin turpis
+turpis, condimentum nec, pulvinar quis, sodales sed, nulla.}
+
+\examplebox{Nunc at magna. Nunc vestibulum ante. Suspendisse viverra erat in
+dui. Vestibulum suscipit eros. Fusce porta orci in quam ultricies
+accumsan. In viverra, nunc nec eleifend facilisis, magna leo rutrum
+augue, at sodales lacus nisl nec mi. In ut ipsum at ipsum auctor
+tristique. In magna arcu, mattis eget, lobortis eu, iaculis at,
+arcu. Aliquam consequat, quam eget sollicitudin iaculis, arcu ante
+accumsan justo, sed luctus libero pede eget tellus. Nullam
+sollicitudin. Nulla pulvinar. Cras et leo. Fusce nec urna ut wisi
+varius varius. In facilisis, nulla a consequat ullamcorper, mauris
+diam euismod turpis, eu tincidunt ipsum nisl ut felis. Ut
+adipiscing. Quisque eu massa. Vestibulum justo. Aliquam facilisis
+dictum nulla. Aliquam auctor, tellus id porttitor vestibulum, mi
+lacus rutrum metus, in congue sapien est vel enim. Proin turpis
+turpis, condimentum nec, pulvinar quis, sodales sed, nulla.}
+
+\end{ExampleSection}
+\end{Topic}
+
+
+\begin{Topic}[Combining Topic I \& II]
+Aliquam erat volutpat. Vivamus dictum volutpat urna. Sed tempor
+interdum sapien. Cras id mi in nunc aliquet placerat. Maecenas
+gravida accumsan ipsum. Integer nec elit vitae ligula pretium
+tincidunt. Sed libero metus, condimentum vel, suscipit et, varius
+id, mi. Nunc accumsan pharetra leo. Pellentesque et est quis tellus
+adipiscing scelerisque. Mauris lacinia erat quis nulla. Nunc
+vulputate. Cras pretium libero sed elit. Sed lectus. Cras mauris
+odio, ullamcorper a, dictum non, mattis id, urna. Suspendisse sed
+ligula.
+
+\begin{ExampleSection}
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+\end{ExampleSection}
+
+\begin{ExampleSection}
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+\end{ExampleSection}
+\end{Topic}
+
+
+\newpage
+\begin{Topic}[Titties]
+Aliquam erat volutpat. Vivamus dictum volutpat urna. Sed tempor
+interdum sapien. Cras id mi in nunc aliquet placerat. Maecenas
+gravida accumsan ipsum. Integer nec elit vitae ligula pretium
+tincidunt. Sed libero metus, condimentum vel, suscipit et, varius
+id, mi. Nunc accumsan pharetra leo. Pellentesque et est quis tellus
+adipiscing scelerisque. Mauris lacinia erat quis nulla. Nunc
+vulputate. Cras pretium libero sed elit. Sed lectus. Cras mauris
+odio, ullamcorper a, dictum non, mattis id, urna. Suspendisse sed
+ligula.\\
+
+\examplebox{Vestibulum tortor. Etiam sagittis purus quis nisl. Vestibulum vitae
+dui vitae wisi faucibus molestie. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt
+risus eu leo. Quisque bibendum eros et erat. Proin lobortis nunc.
+Praesent vel justo eget odio mattis aliquet. Curabitur ultricies
+ante id eros. Nulla vehicula arcu sit amet ipsum. Proin sodales odio
+at justo. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia Curae; Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Praesent venenatis. Integer justo.}
+\end{Topic}
+
+\end{spacing}
+\end{document}

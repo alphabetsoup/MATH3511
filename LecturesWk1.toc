@@ -1,0 +1,5 @@
+\nobreakspace {}\hfill \textbf {Page}\par 
+\contentsline {section}{I Introduction}{1}{section*.2}
+\contentsline {section}{II Historical Example: Lunes}{2}{section*.3}
+\contentsline {section}{III Euclid's Elements}{3}{section*.4}
+\contentsline {section}{IV Ceva's Theoryem and Menelous' Theorem}{6}{section*.5}

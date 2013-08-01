@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow1-565">
+            <path
+                d="M 0.0 0.0 L 4.652083333333334 1.6614583333333335 L 2.79125 0.0 L 4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-569">
+            <path
+                d="M 0.0 0.0 L 4.652083333333334 1.6614583333333335 L 2.79125 0.0 L 4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-573">
+            <path
+                d="M 0.0 0.0 L 4.652083333333334 1.6614583333333335 L 2.79125 0.0 L 4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-583">
+            <path
+                d="M 0.0 0.0 L 4.652083333333334 1.6614583333333335 L 2.79125 0.0 L 4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-587">
+            <path
+                d="M 0.0 0.0 L 4.652083333333334 1.6614583333333335 L 2.79125 0.0 L 4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+    </defs>
+    <g>
+        <g latexdraw:type="triangle" id="id560" latexdraw:points="266.0 156.0 520.0 156.0 266.0 355.0 520.0 355.0">
+            <polygon
+                points="393.0,157.85884 518.37854,354.0 267.62146,354.0"
+                latexdraw:borderPos="outer" stroke-width="2.0"
+                stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="line" id="id561">
+            <line x1="571.0" x2="263.0" y1="383.0" y2="212.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="line" id="id562">
+            <line x1="222.0" x2="516.0" y1="377.0" y2="218.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="line" id="id563">
+            <line x1="394.0" x2="393.0" y1="414.0" y2="97.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="dot" id="id564" latexdraw:size="6.0"
+            latexdraw:dotShape="dot" latexdraw:position="395.0 285.0">
+            <circle r="3.0" fill="black" cx="395.0" cy="285.0"/>
+        </g>
+        <g latexdraw:type="arc" id="id565">
+            <path
+                d="M 576.7112057557852 366.6203599329624 A 17.5 17.5 0.0 0 0 553.5987379228991 392.1303768824889 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-start="url(#arrow1-565)"/>
+        </g>
+        <g latexdraw:type="arc" id="id569">
+            <path
+                d="M 248.31484254046651 383.9885770835458 A 17.5 17.5 0.0 0 0 230.42632710876518 353.9737059783946 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-start="url(#arrow1-569)"/>
+        </g>
+        <g latexdraw:type="arc" id="id573">
+            <path
+                d="M 410.98019241017766 135.3323901147704 A 17.5 17.5 0.0 1 0 376.0165172287865 135.26015142483536 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-start="url(#arrow1-573)"/>
+        </g>
+        <g latexdraw:type="text" id="id577"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="429.0">
+            <text x="429.0" y="445.0"><![CDATA[Reflective symmetries]]></text>
+        </g>
+        <g latexdraw:type="akinPoints" id="id580" latexdraw:pathType="1"
+            latexdraw:interval="5" latexdraw:points="585.0 428.0 586.0 428.0 586.0 427.0 586.0 426.0 586.0 425.0 587.0 423.0 587.0 422.0 587.0 420.0 588.0 418.0 588.0 415.0 588.0 414.0 588.0 412.0 588.0 411.0 588.0 409.0 588.0 408.0 588.0 406.0 588.0 404.0 588.0 403.0 587.0 402.0 585.0 400.0 584.0 399.0 582.0 398.0 582.0 397.0 581.0 397.0 580.0 397.0 580.0 396.0 578.0 396.0 577.0 396.0 576.0 396.0 576.0 395.0 ">
+            <path
+                d="M 585.0 428.0 L 586.0 425.5 C 586.5 424.25 587.25 420.75 587.5 418.5 C 587.75 416.25 588.0 412.0 588.0 410.0 C 588.0 408.0 587.0 404.25 586.0 402.5 C 585.0 400.75 583.0 398.25 582.0 397.5 C 581.0 396.75 579.0 395.75 576.0 395.0 "
+                stroke-width="0.5" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="akinPoints" id="id581" latexdraw:pathType="1"
+            latexdraw:interval="5" latexdraw:points="589.0 428.0 590.0 428.0 591.0 425.0 592.0 422.0 594.0 419.0 602.0 408.0 609.0 399.0 615.0 390.0 622.0 378.0 624.0 375.0 625.0 368.0 625.0 366.0 625.0 363.0 624.0 360.0 622.0 358.0 618.0 353.0 615.0 349.0 615.0 347.0 615.0 346.0 614.0 346.0 614.0 344.0 614.0 343.0 614.0 342.0 613.0 341.0 613.0 340.0 611.0 336.0 608.0 330.0 605.0 325.0 595.0 309.0 583.0 288.0 578.0 280.0 567.0 265.0 560.0 256.0 552.0 244.0 550.0 241.0 549.0 238.0 549.0 237.0 549.0 235.0 548.0 232.0 546.0 227.0 543.0 223.0 539.0 214.0 537.0 210.0 532.0 198.0 527.0 189.0 525.0 186.0 522.0 182.0 521.0 182.0 519.0 182.0 517.0 180.0 514.0 178.0 509.0 174.0 503.0 170.0 490.0 164.0 484.0 160.0 466.0 152.0 459.0 149.0 448.0 145.0 445.0 144.0 444.0 144.0 443.0 143.0 442.0 143.0 440.0 143.0 439.0 143.0 438.0 143.0 436.0 142.0 436.0 141.0 434.0 141.0 434.0 139.0 434.0 138.0 433.0 138.0 432.0 138.0 431.0 138.0 ">
+            <path
+                d="M 589.0 428.0 L 595.5 418.0 C 598.75 413.0 607.75 398.0 613.5 388.0 C 619.25 378.0 623.25 364.25 621.5 360.5 C 619.75 356.75 617.0 350.75 616.0 348.5 C 615.0 346.25 613.25 342.0 612.5 340.0 C 611.75 338.0 602.75 322.0 594.5 308.0 C 586.25 294.0 570.75 269.5 563.5 259.0 C 556.25 248.5 547.5 234.25 546.0 230.5 C 544.5 226.75 538.5 213.75 534.0 204.5 C 529.5 195.25 522.25 184.0 519.5 182.0 C 516.75 180.0 502.0 171.5 490.0 165.0 C 478.0 158.5 460.25 149.75 454.5 147.5 C 448.75 145.25 441.25 142.75 439.5 142.5 C 437.75 142.25 435.25 141.0 434.5 140.0 C 433.75 139.0 432.5 138.0 431.0 138.0 "
+                stroke-width="0.5" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="akinPoints" id="id582" latexdraw:pathType="1"
+            latexdraw:interval="5" latexdraw:points="593.0 442.0 594.0 442.0 594.0 443.0 595.0 443.0 595.0 444.0 595.0 445.0 595.0 446.0 595.0 447.0 595.0 449.0 595.0 452.0 595.0 453.0 593.0 454.0 592.0 456.0 589.0 457.0 588.0 458.0 584.0 459.0 582.0 460.0 577.0 462.0 575.0 463.0 573.0 463.0 570.0 463.0 563.0 463.0 558.0 463.0 547.0 463.0 540.0 463.0 523.0 463.0 517.0 463.0 514.0 463.0 511.0 464.0 509.0 464.0 503.0 465.0 493.0 465.0 485.0 465.0 465.0 467.0 449.0 467.0 424.0 469.0 418.0 470.0 417.0 470.0 411.0 470.0 405.0 470.0 396.0 470.0 374.0 470.0 364.0 470.0 333.0 467.0 318.0 466.0 303.0 463.0 299.0 461.0 298.0 459.0 297.0 456.0 287.0 451.0 283.0 448.0 280.0 444.0 274.0 439.0 270.0 435.0 263.0 430.0 263.0 429.0 262.0 426.0 260.0 426.0 260.0 424.0 260.0 423.0 259.0 422.0 259.0 419.0 259.0 417.0 258.0 414.0 258.0 413.0 256.0 412.0 256.0 411.0 256.0 410.0 255.0 409.0 255.0 408.0 254.0 407.0 254.0 406.0 253.0 405.0 253.0 404.0 253.0 403.0 253.0 402.0 253.0 401.0 253.0 400.0 253.0 399.0 253.0 398.0 253.0 397.0 253.0 396.0 253.0 395.0 253.0 394.0 253.0 393.0 253.0 392.0 253.0 391.0 253.0 390.0 253.0 389.0 ">
+            <path
+                d="M 593.0 442.0 L 594.0 443.5 C 594.5 444.25 595.0 447.0 595.0 449.0 C 595.0 451.0 592.25 454.5 589.5 456.0 C 586.75 457.5 580.5 460.0 577.0 461.0 C 573.5 462.0 558.25 463.0 546.5 463.0 C 534.75 463.0 518.0 463.5 513.0 464.0 C 508.0 464.5 483.25 466.0 463.5 467.0 C 443.75 468.0 417.0 469.25 410.0 469.5 C 403.0 469.75 372.75 468.25 349.5 466.5 C 326.25 464.75 298.0 459.25 293.0 455.5 C 288.0 451.75 278.0 443.25 273.0 438.5 C 268.0 433.75 262.0 427.25 261.0 425.5 C 260.0 423.75 258.25 419.5 257.5 417.0 C 256.75 414.5 255.5 410.75 255.0 409.5 C 254.5 408.25 253.75 405.75 253.5 404.5 C 253.25 403.25 253.0 400.75 253.0 399.5 C 253.0 398.25 253.0 395.75 253.0 394.5 C 253.0 393.25 253.0 391.25 253.0 389.0 "
+                stroke-width="0.5" stroke="black" fill="none" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="arc" id="id583">
+            <path
+                d="M 369.6024291495768 150.4855986093276 A 134.0 134.0 0.0 0 0 255.6165594695846 331.27571089635546 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-start="url(#arrow1-583)"/>
+        </g>
+        <g latexdraw:type="arc" id="id587">
+            <path
+                d="M 567.3070918505302 353.500856281809 A 188.5 188.5 0.0 1 0 214.36794098185626 349.9707970168885 "
+                stroke-width="2.0" stroke="black" fill="none"
+                latexdraw:rotationAngle="0.0" marker-start="url(#arrow1-587)"/>
+        </g>
+        <g latexdraw:type="text" id="id591"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="259.0">
+            <text x="259.0" y="281.0"><![CDATA[120]]></text>
+        </g>
+        <g latexdraw:type="text" id="id594"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="194.0">
+            <text x="194.0" y="197.0"><![CDATA[240]]></text>
+        </g>
+        <g latexdraw:type="text" id="id597"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="122.0">
+            <text x="122.0" y="111.0"><![CDATA[Rotational symmetries]]></text>
+        </g>
+    </g>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:displayBorders>false</latexdraw:displayBorders>
+            <latexdraw:autoAdjust>true</latexdraw:autoAdjust>
+            <latexdraw:ppc>50</latexdraw:ppc>
+            <latexdraw:zoom>1.0</latexdraw:zoom>
+            <latexdraw:unit>cm</latexdraw:unit>
+            <latexdraw:classicGrid>false</latexdraw:classicGrid>
+            <latexdraw:gridGap>10</latexdraw:gridGap>
+            <latexdraw:code>0</latexdraw:code>
+            <latexdraw:displayGrid>true</latexdraw:displayGrid>
+            <latexdraw:magneticGrid>false</latexdraw:magneticGrid>
+            <latexdraw:autoUpdate>true</latexdraw:autoUpdate>
+            <latexdraw:version>2.0.8</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1233</latexdraw:width>
+                <latexdraw:height>778</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>1</latexdraw:x>
+                <latexdraw:y>22</latexdraw:y>
+            </latexdraw:position>
+            <latexdraw:dividerPosition>0.7964314679643146</latexdraw:dividerPosition>
+            <latexdraw:displayCodePanel>true</latexdraw:displayCodePanel>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:delimitorOpacity>130</latexdraw:delimitorOpacity>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
