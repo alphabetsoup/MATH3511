@@ -38,6 +38,9 @@
 \usepackage{faktor}
 \usepackage{cancel}
 
+\usepackage{parcolumns} 
+\usepackage{mdframed}
+
 % In case you need to adjust margins:
 \topmargin=-0.45in
 \evensidemargin=0in
@@ -147,17 +150,20 @@ There are three main parts to this course:
   \end{itemize}
 \item Groups (abstract algebra) 
   \begin{itemize}
-    \item e.g. Groups of symmetries:\\
-%          \examplebox{
+    \item e.g. Groups of symmetries: Consider the reflective symmetries of an equilateral triangle in figure \ref{fig:equi_tri_symm}.
+    \item There will also be material on freeze groups and wallpaper groups.
+  \end{itemize}
+\end{enumerate}
 
-Consider the reflective symmetries of an equilateral triangle.\\ \\
+\begin{center}
+\begin{figure}[h]
+\begin{center}
 % Generated with LaTeXDraw 2.0.8
 % Tue Jul 30 12:28:22 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\begin{center}
 \scalebox{0.7} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-3.69)(10.03,3.79)
@@ -236,26 +242,19 @@ Consider the reflective symmetries of an equilateral triangle.\\ \\
 \end{pspicture} 
 }
 \end{center}
+\caption{Symmetries of an equilateral triangle} %     title of the Figure
+\label{fig:equi_tri_symm} % label to refer figure in text
+\end{figure}
+\end{center}
 
 
 
 %}
-    \item There will also be material on freeze groups and wallpaper groups.
-  \end{itemize}
-\end{enumerate}
 \end{Topic}
 
+\newpage
 \begin{Topic}[\Roman{TopicCounter} Historical Example: Lunes]
 The following considers an ancient text on Hippocrates Lunes (\textasciitilde450BC).
-
-\begin{figure*}[t]
-\centering
-\scalebox{1} % Change this value to rescale the drawing.
-{
-\includegraphics[width=1.0\textwidth]{Figures/hippocrateslunes_crop.pdf}
-}
-%\caption{From <reference>}
-\end{figure*}
 
 %\begin{ExampleSection}
 Find a square with the same area as a curved lune.\\
@@ -301,14 +300,19 @@ Consider the Pythagorean relationship $c^2=a^2+b^2$.\\
 The relationship between an area and the corresponding chord length is a quadrature 
 i.e. $A = \lambda a^2$ where $\lambda$ is the same for all three segments.
 
+\begin{figure*}[t]
+\centering
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\includegraphics[width=1.0\textwidth]{Figures/hippocrateslunes_crop.pdf}
+}
+%\caption{From <reference>}
+\end{figure*}
 
 %\end{ExampleSection}
 \end{Topic}
 
-
-
 \newpage
-
 
 \begin{Topic}[\Roman{TopicCounter} Euclid's Elements]
 
@@ -368,13 +372,16 @@ These triangles can be said to be similar because it can be shown that the corre
 
 Consider the figure below which describes the angles at the centre and circumference of a circle described by a chord.
 
+\begin{center}
+\begin{figure}[h]
+\begin{parcolumns}[sloppy, rulebetween, colwidths={1=0.45\textwidth, 2=0.45\textwidth}, distance={0.1\textwidth}]{2}
+\colchunk[1]{
 % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 13:19:56 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\begin{center}
 \scalebox{1} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-2.91)(5.42,2.51)
@@ -390,22 +397,14 @@ Consider the figure below which describes the angles at the centre and circumfer
 \rput(2.93,0.035){0}
 \end{pspicture} 
 }
-\end{center}
-
-
-
-It is required to prove that \textbf{the angle at the centre is twice the angle at the circumference subtended by the same chord}.
-
-\begin{enumerate}
-\item Construct a line from the vertex of the angle on the circumference passing through the centre of the circle.
-\item The segment of the line from the vertex to the centre is the radius, and thus forms two isosceles triangles as depicted below
+}
+\colchunk[2]{
 % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 13:45:24 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\begin{center}
 \scalebox{1} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-2.71)(5.42,2.71)
@@ -432,24 +431,45 @@ It is required to prove that \textbf{the angle at the centre is twice the angle 
 \rput(3.1,-0.545){2y}
 \end{pspicture} 
 }
+}
+\colplacechunks
+\end{parcolumns}
+\caption{The angle at the centre is twice the angle at the circumference subtended by the same chord} %     title of the Figure
+\label{fig:circle_circum_ang_proof} % label to refer figure in text
+\end{figure}
 \end{center}
+
+
+
+It is required to prove that \textbf{the angle at the centre is twice the angle at the circumference subtended by the same chord}.
+
+\begin{enumerate}
+\item Construct a line from the vertex of the angle on the circumference passing through the centre of the circle.
+\item The segment of the line from the vertex to the centre is the radius, and thus forms two isosceles triangles as depicted below
 
 \item The exterior angle of a triangle is the sum of the opposing two interior angles (shown later). Thus the angle at the centre is $2x + 2y$, which is twice the angle at the circumference $x + y$.
 \end{enumerate}
 
-Two corollaries can be derived from this proof:
+Two \textbf{corollaries} can be derived from this proof:
 
 \begin{enumerate}
 \item
 All angles subtended at the circumference by a chord are equal.
+\item
+The angle in a semi-circle is a right angle.
+\end{enumerate}
+
+\begin{center}
+\begin{figure}[h]
+\begin{parcolumns}[sloppy, rulebetween, colwidths={1=0.45\textwidth, 2=0.45\textwidth}, distance={0.1\textwidth}]{2}
+\colchunk[1]{
 % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 14:00:24 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\begin{center}
-\scalebox{1} % Change this value to rescale the drawing.
+\scalebox{0.9} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-2.95)(5.42,2.49)
 \pscircle[linewidth=0.04,dimen=outer](2.71,-0.24){2.71}
@@ -462,19 +482,15 @@ All angles subtended at the circumference by a chord are equal.
 \psarc[linewidth=0.04](5.01,-1.38){0.57}{182.1211}{232.76517}
 \end{pspicture} 
 }
-\end{center}
-
-
-\item
-The angle in a semi-circle is a right angle.
+}
+\colchunk[2]{
 % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 13:54:15 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\begin{center}
-\scalebox{1} % Change this value to rescale the drawing.
+\scalebox{0.9} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-2.71)(5.42,2.71)
 \pscircle[linewidth=0.04,dimen=outer](2.71,0.0){2.71}
@@ -485,10 +501,15 @@ The angle in a semi-circle is a right angle.
 \psline[linewidth=0.04](2.94,2.53)(3.12,2.37)(3.26,2.51)
 \end{pspicture} 
 }
+}
+\colplacechunks
+\end{parcolumns}
+\caption{Corollaries of the circumference angle property} %     title of the Figure
+\label{fig:circle_circum_corollaries} % label to refer figure in text
+\end{figure}
 \end{center}
 
 
-\end{enumerate}
 
 \end{Topic}
 \newpage
@@ -592,7 +613,7 @@ No two values of $P$ give the same $\frac{AP}{PB}$, i.e. this ratio \textit{dete
 \newpage
 
 \textbf{Ceva's Theorem} (Italy, 1678) ("Chayva")
-FOr a triangle $ABC$ with $DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{concurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$
+For a triangle $ABC$ with $DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{concurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$
 Note tht concurrent means literally "run together" so here it signifies that all lines intersect at the same point.
 
 % Generated with LaTeXDraw 2.0.8

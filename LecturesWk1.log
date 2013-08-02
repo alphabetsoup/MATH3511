@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.7.9)  2 AUG 2013 13:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.7.9)  2 AUG 2013 15:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1130,57 +1130,165 @@ Package: faktor 2006/04/05 v0.1b Faktor-Ringe, -Gruppen, -Raeume (PE)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2000/03/12 v2.1 Cancel math terms
 )
-\labelLength=\skip78
-\c@TopicCounter=\count319
-\c@ExampleSectionCounter=\count320
-\c@ExampleBoxCounter=\count321
+(/usr/local/texlive/2012/texmf-dist/tex/latex/sauerj/parcolumns.sty
+Package: parcolumns 2004/11/25 v1.2 Typeset multiple parallel columns
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/sauerj/processkv.sty
+Package: processkv 2004/08/09 v1.0.1 process key=value lists
+)
+\pc@columnctr=\count319
+\pc@columncount=\count320
+\pc@everypar=\toks51
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2012/04/08 v1.5: mdframed
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count321
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count322
+Package zref Info: New property: abspage on input line 62.
+)
+\mdf@templength=\skip78
+\c@mdf@globalstyle@cnt=\count323
+\mdf@skipabove@length=\skip79
+\mdf@skipbelow@length=\skip80
+\mdf@leftmargin@length=\skip81
+\mdf@rightmargin@length=\skip82
+\mdf@innerleftmargin@length=\skip83
+\mdf@innerrightmargin@length=\skip84
+\mdf@innertopmargin@length=\skip85
+\mdf@innerbottommargin@length=\skip86
+\mdf@splittopskip@length=\skip87
+\mdf@splitbottomskip@length=\skip88
+\mdf@outermargin@length=\skip89
+\mdf@innermargin@length=\skip90
+\mdf@linewidth@length=\skip91
+\mdf@innerlinewidth@length=\skip92
+\mdf@middlelinewidth@length=\skip93
+\mdf@outerlinewidth@length=\skip94
+\mdf@roundcorner@length=\skip95
+\mdf@footenotedistance@length=\skip96
+\mdf@userdefinedwidth@length=\skip97
+\mdf@frametitleaboveskip@length=\skip98
+\mdf@frametitlebelowskip@length=\skip99
+\mdf@frametitlerulewidth@length=\skip100
+\mdf@frametitleleftmargin@length=\skip101
+\mdf@frametitlerightmargin@length=\skip102
+\mdf@shadowsize@length=\skip103
+\mdf@frametitlebox=\box58
+\mdf@footnotebox=\box59
+\mdf@splitbox@one=\box60
+\mdf@splitbox@two=\box61
+\mdfsplitboxwidth=\skip104
+\mdfsplitboxtotalwidth=\skip105
+\mdfsplitboxheight=\skip106
+\mdfsplitboxdepth=\skip107
+\mdfsplitboxtotalheight=\skip108
+\mdfframetitleboxwidth=\skip109
+\mdfframetitleboxtotalwidth=\skip110
+\mdfframetitleboxheight=\skip111
+\mdfframetitleboxdepth=\skip112
+\mdfframetitleboxtotalheight=\skip113
+\mdffootnoteboxwidth=\skip114
+\mdffootnoteboxtotalwidth=\skip115
+\mdffootnoteboxheight=\skip116
+\mdffootnoteboxdepth=\skip117
+\mdffootnoteboxtotalheight=\skip118
+\mdftotallinewidth=\skip119
+\mdfboundingboxwidth=\skip120
+\mdfboundingboxtotalwidth=\skip121
+\mdfboundingboxheight=\skip122
+\mdfboundingboxdepth=\skip123
+\mdfboundingboxtotalheight=\skip124
+\mdf@freevspace@length=\skip125
+\mdf@horizontalwidthofbox@length=\skip126
+\mdf@verticalmarginwhole@length=\skip127
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
+. line 501.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
+. 581.
+.................................................
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
+)
+\c@mdf@zref@counter=\count324
+Package zref Info: New property: mdf@pagevalue on input line 782.
+\mdf@horizontalspaceofbox=\skip128
+)
+\labelLength=\skip129
+\c@TopicCounter=\count325
+\c@ExampleSectionCounter=\count326
+\c@ExampleBoxCounter=\count327
 
 (./LecturesWk1.aux)
 \openout1 = `LecturesWk1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    ... okay on input line 121.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 118.
+(lastpage)             ! on input line 121.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
+\scratchcounter=\count328
 \scratchdimen=\dimen297
-\scratchbox=\box58
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count325
+\scratchbox=\box62
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count331
 \MPscratchDim=\dimen298
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks52
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1212,7 +1320,7 @@ runsystem(uname -s > "LecturesWk1.w18")...executed.
 runsystem(rm -- "LecturesWk1.w18")...executed.
 
 )
-\c@app@runs=\count328
+\c@app@runs=\count334
 runsystem(echo " ")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
@@ -1253,15 +1361,15 @@ runsystem(echo "-------------------------------------------------")...executed.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
 Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
-\c@pspicture=\count329
+\c@pspicture=\count335
 Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 214.
-\ppf@output=\toks53
+\ppf@output=\toks54
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/preview/preview.sty
 Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
-\pr@snippet=\count330
-\pr@box=\box59
-\pr@output=\toks54
+\pr@snippet=\count336
+\pr@box=\box63
+\pr@output=\toks55
 
 Preview: Fontsize 10pt
 Preview: PDFoutput 1
@@ -1271,8 +1379,8 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2008/06/18 v0.2 A new way to define environments
 )))
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 118.
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring OFF on input line 121.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1280,11 +1388,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (./LecturesWk1.out) (./LecturesWk1.out)
 \@outlinefile=\write4
@@ -1296,180 +1404,217 @@ LaTeX Info: Redefining \nameref on input line 118.
 \openout5 = `LecturesWk1.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--160
-
- []
-
-<LecturesWk1-pics.pdf, id=28, page=1, 284.06125pt x 213.79875pt>
+<LecturesWk1-pics.pdf, id=29, page=1, 284.06125pt x 213.79875pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 1>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page1 used on input line 237.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page1 used on input line 243.
 (pdftex.def)             Requested size: 284.06053pt x 213.79822pt.
-
-<Figures/hippocrateslunes_crop.pdf, id=29, 577.96272pt x 442.13232pt>
-File: Figures/hippocrateslunes_crop.pdf Graphic file (type pdf)
-
-<use Figures/hippocrateslunes_crop.pdf>
-Package pdftex.def Info: Figures/hippocrateslunes_crop.pdf used on input line 2
-56.
-(pdftex.def)             Requested size: 469.75499pt x 359.36655pt.
-
-Overfull \hbox (6.66666pt too wide) in paragraph at lines 256--258
- [][] 
- []
-
-[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 Non-PDF special ignored! <./LecturesWk1-pics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<LecturesWk1-pics.pdf, id=59, page=2, 343.2825pt x 172.645pt>
+<LecturesWk1-pics.pdf, id=60, page=2, 343.2825pt x 172.645pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 2>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page2 used on input line 293.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page2 used on input line 292.
 (pdftex.def)             Requested size: 343.28165pt x 172.64456pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 297.
+LaTeX Font Info:    Try loading font information for U+msa on input line 296.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 297.
+LaTeX Font Info:    Try loading font information for U+msb on input line 296.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[2 <./Figures/hippocrateslunes_crop.pdf> <./LecturesWk1-pics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+<Figures/hippocrateslunes_crop.pdf, id=61, 577.96272pt x 442.13232pt>
+File: Figures/hippocrateslunes_crop.pdf Graphic file (type pdf)
+
+<use Figures/hippocrateslunes_crop.pdf>
+Package pdftex.def Info: Figures/hippocrateslunes_crop.pdf used on input line 3
+08.
+(pdftex.def)             Requested size: 469.75499pt x 359.36655pt.
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 308--310
+ [][] 
+ []
+
+[2 <./LecturesWk1-pics.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 [][][]\OT1/cmr/m/n/8 For a more com-pre-hen-sive list of def-i-ni-tions, pos-tu
 -lates and com-mon no-tions, see
  []
 
-<LecturesWk1-pics.pdf, id=92, page=3, 99.37125pt x 114.4275pt>
+[3 <./Figures/hippocrateslunes_crop.pdf>]
+<LecturesWk1-pics.pdf, id=100, page=3, 99.37125pt x 114.4275pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 3>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page3 used on input line 361.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page3 used on input line 365.
 (pdftex.def)             Requested size: 99.371pt x 114.42722pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-<LecturesWk1-pics.pdf, id=93, page=4, 155.58125pt x 154.5775pt>
+\pc@column@1=\box65
+\pc@column@width@1=\dimen299
+\pc@column@2=\box66
+\pc@column@width@2=\dimen300
+Package parcolumns Info: Width of column 1 set to 211.3883pt on input line 377.
+
+Package parcolumns Info: Width of column 2 set to 211.3883pt on input line 377.
+
+<LecturesWk1-pics.pdf, id=101, page=4, 155.58125pt x 154.5775pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 4>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page4 used on input line 392.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page4 used on input line 399.
 (pdftex.def)             Requested size: 155.58086pt x 154.5771pt.
- [4 <./LecturesWk1-pics.pdf>]
-<LecturesWk1-pics.pdf, id=113, page=5, 155.58125pt x 154.5775pt>
+
+<LecturesWk1-pics.pdf, id=102, page=5, 155.58125pt x 154.5775pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 5>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page5 used on input line 434.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page5 used on input line 433.
 (pdftex.def)             Requested size: 155.58086pt x 154.5771pt.
 
-<LecturesWk1-pics.pdf, id=114, page=6, 155.58125pt x 155.58125pt>
+Overfull \vbox (150.97707pt too high) detected at line 435
+ []
+
+
+Overfull \vbox (150.97707pt too high) detected at line 435
+ []
+
+
+./LecturesWk1.tex:440: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.440 \end{center}
+                  
+? 
+[4 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>]
+Package parcolumns Info: Width of column 1 set to 211.3883pt on input line 464.
+
+Package parcolumns Info: Width of column 2 set to 211.3883pt on input line 464.
+
+
+<LecturesWk1-pics.pdf, id=142, page=6, 155.58125pt x 155.58125pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 6>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page6 used on input line 464.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page6 used on input line 484.
 (pdftex.def)             Requested size: 155.58086pt x 155.58086pt.
- [5 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>] <LecturesWk1-pics.pdf, i
-d=146, page=7, 155.58125pt x 154.5775pt>
+
+<LecturesWk1-pics.pdf, id=143, page=7, 155.58125pt x 154.5775pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 7>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page7 used on input line 487.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page7 used on input line 503.
 (pdftex.def)             Requested size: 155.58086pt x 154.5771pt.
- [6 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>] <LecturesWk1-pics.pdf, i
-d=176, page=8, 252.945pt x 24.09pt>
+
+Overfull \vbox (136.42178pt too high) detected at line 505
+ []
+
+
+Overfull \vbox (135.5184pt too high) detected at line 505
+ []
+
+
+./LecturesWk1.tex:510: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 \end{center}
+                  
+? 
+[5 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>]
+<LecturesWk1-pics.pdf, id=175, page=8, 252.945pt x 24.09pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 8>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page8 used on input line 526.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page8 used on input line 547.
 (pdftex.def)             Requested size: 252.94438pt x 24.08992pt.
 
-<LecturesWk1-pics.pdf, id=177, page=9, 324.21124pt x 298.11375pt>
+<LecturesWk1-pics.pdf, id=176, page=9, 324.21124pt x 298.11375pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 9>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page9 used on input line 562.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page9 used on input line 583.
 (pdftex.def)             Requested size: 324.21045pt x 298.11302pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 
  []
 
-<LecturesWk1-pics.pdf, id=178, page=10, 135.50626pt x 132.495pt>
+<LecturesWk1-pics.pdf, id=177, page=10, 135.50626pt x 132.495pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 10>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page10 used on input line 589.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page10 used on input line 610.
 (pdftex.def)             Requested size: 135.5059pt x 132.49466pt.
- [7 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>]
+ [6 <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf> <./LecturesWk1-pics.pdf>]
 
-<LecturesWk1-pics.pdf, id=216, page=11, 243.91125pt x 116.435pt>
+<LecturesWk1-pics.pdf, id=214, page=11, 243.91125pt x 116.435pt>
 File: LecturesWk1-pics.pdf Graphic file (type pdf)
 
 <use LecturesWk1-pics.pdf, page 11>
-Package pdftex.def Info: LecturesWk1-pics.pdf, page11 used on input line 628.
+Package pdftex.def Info: LecturesWk1-pics.pdf, page11 used on input line 649.
 (pdftex.def)             Requested size: 243.91064pt x 116.43471pt.
  
 AED: lastpage setting LastPage
-[8 <./LecturesWk1-pics.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+[7 <./LecturesWk1-pics.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
  (./LecturesWk1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
 Package rerunfilecheck Info: File `LecturesWk1.out' has not changed.
 (rerunfilecheck)             Checksum: 670C4859287B1209692E7909AFF6913A;246.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 656.
  ) 
 Here is how much of TeX's memory you used:
- 23720 strings out of 493488
- 419193 string characters out of 3141327
- 516517 words of memory out of 3000000
- 26477 multiletter control sequences out of 15000+200000
+ 24660 strings out of 493488
+ 435156 string characters out of 3141327
+ 544685 words of memory out of 3000000
+ 27387 multiletter control sequences out of 15000+200000
  11305 words of font info for 43 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,11n,55p,422b,582s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,55p,455b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -1485,10 +1630,10 @@ ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012
 /texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on LecturesWk1.pdf (8 pages, 841588 bytes).
+Output written on LecturesWk1.pdf (7 pages, 841797 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 37 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
