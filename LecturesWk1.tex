@@ -246,7 +246,17 @@ Consider the reflective symmetries of an equilateral triangle.\\ \\
 \end{Topic}
 
 \begin{Topic}[\Roman{TopicCounter} Historical Example: Lunes]
-Please see the handout on Hippocrates Lunes (~450BC).
+The following considers an ancient text on Hippocrates Lunes (\textasciitilde450BC).
+
+\begin{figure*}[t]
+\centering
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\includegraphics[width=1.0\textwidth]{Figures/hippocrateslunes_crop.pdf}
+}
+%\caption{From <reference>}
+\end{figure*}
+
 %\begin{ExampleSection}
 Find a square with the same area as a curved lune.\\
 
@@ -302,12 +312,9 @@ i.e. $A = \lambda a^2$ where $\lambda$ is the same for all three segments.
 
 \begin{Topic}[\Roman{TopicCounter} Euclid's Elements]
 
-As a brief introduction to Euclids Elements, this section will discuss one or two items from the definitions, postulates, common notions and propositions.
+As a brief introduction to Euclids Elements, this section will discuss one or two items from the definitions, postulates, common notions and propositions\footnote{For a more comprehensive list of definitions, postulates and common notions, see \textit{http://aleph0.clarku.edu/\textasciitilde djoyce/java/elements/elements.html}}.
 
-For a more comprehensive list of definitions, postulates and common notions, see
-\textit{http://aleph0.clarku.edu/~djoyce/java/elements/elements.html}
-
-In proposition 1 (see \textit{http://aleph0.clarku.edu/~djoyce/java/elements/bookI/propI1.html}) 
+In proposition 1\footnote{\\\textit{http://aleph0.clarku.edu/~djoyce/java/elements/bookI/propI1.html}}
 \textbf{"To construct an equilateral triangle on a given finite straight line"} there are areas that
 can be subject to critique, such as the notion that the circles must intersect. Without this intersection,
 C cannot be described and thus the proposition does not hold, but Euclid does not explicitly explain how they
@@ -321,8 +328,6 @@ everything that follows is certain and there would be no need for measurement or
 Unfortunately, this did not work for most sciences but it did work for mathematics, in particular in number theory.
 
 There are two common definitions of geometry. The first is pure (Euclidean) geometry, and the second is the shape of space (as explored in physics). This course aims to focus on the first.
-
-Section 1.2
 
 Consider the preliminary example of two triangles described by two lines intersecting between two parallel lines as below.
 
@@ -488,7 +493,7 @@ The angle in a semi-circle is a right angle.
 \end{Topic}
 \newpage
 
-\begin{Topic}[\Roman{TopicCounter} Ceva's Theoryem and Menelous' Theorem]
+\begin{Topic}[\Roman{TopicCounter} Ceva's Theorem and Menelaus' Theorem]
 
 First, some conventions that allow \textit{negative ratios of lengths}. Given a line from $A$ to $B$, the length $AB$ is the negative of the length from $B$ to $A$, i.e. $AB=-BA$.
 
@@ -521,11 +526,11 @@ $AB$ is a length from $A$ to $B$, starting at point $A$. For $P$ on the line ext
 }
 \end{center}
 
-
-\\$\frac{AP}{PB}$ is \textbf{positive} because $P$ is between $A$ and $B$.
-\\$\frac{AQ}{QB}$ is \textbf{negative} because $Q$ is exterior to the line between $A$ and $B$.
-
-\\The graph of the ratio $\frac{AP}{PB}$ for any $P$ on the extended line $AB$ is described as follows:
+\begin{itemize}
+\item$\frac{AP}{PB}$ is \textbf{positive} because $P$ is between $A$ and $B$.
+\item$\frac{AQ}{QB}$ is \textbf{negative} because $Q$ is exterior to the line between $A$ and $B$.
+\end{itemize}
+The graph of the ratio $\frac{AP}{PB}$ for any $P$ on the extended line $AB$ is described as follows:
 % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 14:21:05 EST 2013
 % \usepackage[usenames,dvipsnames]{pstricks}
@@ -558,9 +563,9 @@ $AB$ is a length from $A$ to $B$, starting at point $A$. For $P$ on the line ext
 \end{center}
 
 
-\\No two values of $P$ give the same $\frac{AP}{PB}$, i.e. this ratio \textit{determines} $P$.
+No two values of $P$ give the same $\frac{AP}{PB}$, i.e. this ratio \textit{determines} $P$.\\
 
-\\\textbf{Convention:} Given a trangle, lengths defined in the counter-clockwise direction are positive. For example, in the below figure, $AB,BC,CA$ are positive lengths, but $BA,CB,AC$ are negative.
+\textbf{Convention:} Given a trangle, lengths defined in the counter-clockwise direction are positive. For example, in the below figure, $AB,BC,CA$ are positive lengths, but $BA,CB,AC$ are negative.\\
 
  % Generated with LaTeXDraw 2.0.8
 % Thu Aug 01 14:24:53 EST 2013
@@ -586,8 +591,8 @@ $AB$ is a length from $A$ to $B$, starting at point $A$. For $P$ on the line ext
 
 \newpage
 
-\\\textbf{Ceva's Theorem} (Italy, 1678) ("Chayva")
-FOr a triangle $ABC$ with $DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{cuncurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$
+\textbf{Ceva's Theorem} (Italy, 1678) ("Chayva")
+FOr a triangle $ABC$ with $DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{concurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$
 Note tht concurrent means literally "run together" so here it signifies that all lines intersect at the same point.
 
 % Generated with LaTeXDraw 2.0.8
