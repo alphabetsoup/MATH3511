@@ -4,60 +4,68 @@
     version="1.1" baseProfile="full">
     <defs/>
     <g>
-        <g latexdraw:type="polygon" id="id5575">
+        <g latexdraw:type="polygon" id="id24">
             <polygon points="245.0,212.0 655.0,212.0 335.0,54.0 "
                 stroke-width="2.0" stroke="black" fill="none"/>
         </g>
-        <g latexdraw:type="text" id="id5576"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="246.0">
+        <g latexdraw:type="text" id="id25" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="246.0">
             <text x="246.0" y="233.0"><![CDATA[A]]></text>
         </g>
-        <g latexdraw:type="text" id="id5579"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="659.0">
+        <g latexdraw:type="text" id="id27" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="659.0">
             <text x="659.0" y="229.0"><![CDATA[B]]></text>
         </g>
-        <g latexdraw:type="text" id="id5582"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="335.0">
+        <g latexdraw:type="text" id="id29" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="335.0">
             <text x="335.0" y="42.0"><![CDATA[C]]></text>
         </g>
-        <g latexdraw:type="dot" id="id5585" latexdraw:size="6.0"
+        <g latexdraw:type="dot" id="id31" latexdraw:size="6.0"
             latexdraw:dotShape="dot" latexdraw:position="327.0 213.0">
             <circle r="3.0" fill="black" cx="327.0" cy="213.0"/>
         </g>
-        <g latexdraw:type="dot" id="id5586" latexdraw:size="6.0"
+        <g latexdraw:type="dot" id="id32" latexdraw:size="6.0"
             latexdraw:dotShape="dot" latexdraw:position="432.0 102.0">
             <circle r="3.0" fill="black" cx="432.0" cy="102.0"/>
         </g>
-        <g latexdraw:type="dot" id="id5587" latexdraw:size="6.0"
+        <g latexdraw:type="dot" id="id33" latexdraw:size="6.0"
             latexdraw:dotShape="dot" latexdraw:position="278.0 154.0">
             <circle r="3.0" fill="black" cx="278.0" cy="154.0"/>
         </g>
-        <g latexdraw:type="line" id="id5588">
+        <g latexdraw:type="line" id="id34">
             <line x1="278.0" x2="656.0" y1="155.0" y2="212.0"
                 stroke-width="2.0" stroke="black"
                 stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
         </g>
-        <g latexdraw:type="line" id="id5589">
+        <g latexdraw:type="line" id="id35">
             <line x1="327.0" x2="336.0" y1="212.0" y2="56.0"
                 stroke-width="2.0" stroke="black"
                 stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
         </g>
-        <g latexdraw:type="line" id="id5590">
+        <g latexdraw:type="line" id="id36">
             <line x1="431.0" x2="246.0" y1="103.0" y2="212.0"
                 stroke-width="2.0" stroke="black"
                 stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
         </g>
-        <g latexdraw:type="text" id="id5591"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="442.0">
+        <g latexdraw:type="text" id="id37" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="442.0">
             <text x="442.0" y="95.0"><![CDATA[D]]></text>
         </g>
-        <g latexdraw:type="text" id="id5594"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="256.0">
+        <g latexdraw:type="text" id="id39" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="256.0">
             <text x="256.0" y="144.0"><![CDATA[E]]></text>
         </g>
-        <g latexdraw:type="text" id="id5597"
-            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="323.0">
+        <g latexdraw:type="text" id="id41" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="323.0">
             <text x="323.0" y="234.0"><![CDATA[F]]></text>
+        </g>
+        <g latexdraw:type="dot" id="id43" latexdraw:size="6.0"
+            latexdraw:dotShape="dot" latexdraw:position="330.0 162.0">
+            <circle r="3.0" fill="black" cx="330.0" cy="162.0"/>
+        </g>
+        <g latexdraw:type="text" id="id44" font-family="Times New Roman"
+            fill="black" font-size="18" latexdraw:x="334.0">
+            <text x="334.0" y="180.0"><![CDATA[P]]></text>
         </g>
     </g>
     <metadata>
