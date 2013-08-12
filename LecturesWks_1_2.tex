@@ -2,9 +2,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Lecture Specific Information to Fill Out
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\LectureTitle}{Lectures Week \#1 Notes}
+\newcommand{\LectureTitle}{Lectures Week \#1 and \#2 Notes}
 %\newcommand{\LectureDate}{\today}
-\newcommand{\LectureDate}{July\ 30,\ 2013}
+\newcommand{\LectureDate}{August\ 12,\ 2013}
 \newcommand{\LectureClassName}{MATH\ 3511}
 \newcommand{\LatexerName}{Professor\ James\ Franklin}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -374,6 +374,7 @@ Consider the figure below which describes the angles at the centre and circumfer
 
 \begin{center}
 \begin{figure}[h]
+\begin{center}
 \begin{parcolumns}[sloppy, rulebetween, colwidths={1=0.45\textwidth, 2=0.45\textwidth}, distance={0.1\textwidth}]{2}
 \colchunk[1]{
 % Generated with LaTeXDraw 2.0.8
@@ -434,6 +435,7 @@ Consider the figure below which describes the angles at the centre and circumfer
 }
 \colplacechunks
 \end{parcolumns}
+\end{center}
 \caption{The angle at the centre is twice the angle at the circumference subtended by the same chord} %     title of the Figure
 \label{fig:circle_circum_ang_proof} % label to refer figure in text
 \end{figure}
@@ -613,8 +615,9 @@ No two values of $P$ give the same $\frac{AP}{PB}$, i.e. this ratio \textit{dete
 \newpage
 
 \newtheorem{cevastheorem}{Ceva's Theorem}
+\begin{cevastheorem}
 \textit{(Italy, 1678) ("Chayva")}
-For a triangle $ABC$ with $DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{concurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$\\
+For a triangle $\triangle ABC$ with $\triangle DEF$ on the sides $BC,CA,AB$ or their \textit{extensions}, then $AD,BE,CF$ are \textit{concurrent} if and only if  $AF\cdot BD\cdot CE=FB\cdot DC\cdot EA$ or $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$\\
 Note tht concurrent means literally "run together" so here it signifies that all lines intersect at the same point.
 
 \begin{center}
@@ -655,16 +658,65 @@ Note tht concurrent means literally "run together" so here it signifies that all
 
 \begin{proof} 
   First suppose that $AD,BE,CF$ are concurrent at point $P$.\\
-  \textbf{Case 1:} Point of intersection is inside the triangle $ABC$.\\
+  \textbf{Case 1:} Point of intersection is inside the triangle $\triangle ABC$.\\
   Extend $CF$ and $BE$ such that they meet a line running through $A$ parallel to $BC$ at $M$ and $N$ respectively.\\
+
+\begin{center}
+\begin{figure}[h]
+% Generated with LaTeXDraw 2.0.8
+% Mon Aug 12 14:16:58 EST 2013
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+\begin{center}
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-2.03)(5.54,2.03)
+\pspolygon[linewidth=0.04](0.2,-1.57)(5.14,-1.57)(2.0,1.59)
+\usefont{T1}{ptm}{m}{n}
+\rput(2.05,1.815){A}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.12,-1.765){B}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.38,-1.725){C}
+\psdots[dotsize=0.12](3.74,-1.57)
+\psdots[dotsize=0.12](3.18,0.43)
+\psdots[dotsize=0.12](1.68,0.99)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](0.78,1.61)(5.12,-1.55)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](3.74,-1.55)(2.04,1.53)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.84,1.59)(0.24,-1.59)
+\usefont{T1}{ptm}{m}{n}
+\rput(3.69,-1.885){D}
+\usefont{T1}{ptm}{m}{n}
+\rput(3.31,0.695){E}
+\usefont{T1}{ptm}{m}{n}
+\rput(1.44,0.935){F}
+\psdots[dotsize=0.12](2.8,0.15)
+\usefont{T1}{ptm}{m}{n}
+\rput(2.7,-0.185){P}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(0.54,1.59)(5.24,1.59)
+\usefont{T1}{ptm}{m}{n}
+\rput(0.7,1.815){M}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.9,1.855){N}
+\end{pspicture} 
+}
+\end{center}
+\caption{Proof of Ceva's theorem in the first case where P is interior to $\triangle ABC$} %     title of the Figure
+\label{fig:ceva_case_1} % label to refer figure in text
+\end{figure}
+\end{center}
+
+
   \begin{align}
-  \frac{AF}{FB}=\frac{AM}{CB} because $AFM\sim BFC$ \textit{Opposite angles are equal, alternate angles are equal.}\\
-  \frac{CE}{EA}=\frac{CB}{NA} because $CEB\sim AEN$ \textit{For the same reasons as above.}\\
+  \frac{AF}{FB}=\frac{AM}{CB}\textrm{ because }\triangle AFM\sim \triangle BFC\\\textrm{ Opposite angles are equal, alternate angles are equal.}\\
+  \frac{CE}{EA}=\frac{CB}{NA}\textrm{ because }\triangle CEB\sim \triangle AEN\\\textrm{ For the same reasons as above.}\\
   \end{align}
   Additionally,\\
   \begin{align}
-  \frac{BD}{NA}=\frac{DP}{AP} because $BDP\sim NAP$\\
-  \frac{AP}{DP}=\frac{AM}{DC} because $DCP\sim AMP$\\
+  \frac{BD}{NA}=\frac{DP}{AP}\textrm{ because }\triangle BDP\sim \triangle NAP\\
+  \frac{AP}{DP}=\frac{AM}{DC}\textrm{ because }\triangle DCP\sim \triangle AMP\\
   \end{align}
   So
   \begin{align}
@@ -675,17 +727,264 @@ Note tht concurrent means literally "run together" so here it signifies that all
  
   By substituting each of the above we have\\
   \begin{align}
-    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=\frac{AM}{CB}\cdot\frac{CB}{NA}\cdot\frac{NA}{AM}
+    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=\frac{AM}{CB}\cdot\frac{CB}{NA}\cdot\frac{NA}{AM}\\
           =1
   \end{align}
 
-  \textbf{Case 2:} Point of intersection is outside the triangle $ABC$.\\
+  Conversely, suppose that
+
+  \begin{align}
+    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1
+  \end{align}
+
+  Define $P=BE\cap CF$, i.e. the intersection of just two lines $BE$ and $CF$.\\
+
+  Then let $D'=AP\cap BC$. (The aim is to show $D'=D$).
+
+  We cam apply what we proved above to $D'$. We know that
+
+  \begin{align}
+    \frac{AF}{FB}\cdot\frac{BD'}{D'C}\cdot\frac{CE}{EA}=1
+  \end{align}
+
+  And we assumed
+
+  \begin{align}
+    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1
+  \end{align}
+
+  So by cancellation $\frac{BD'}{D'C}=\frac{BD}{DC}$ and hence $D=D'$ from the earlier defintion that the ratio at which a point divides a line uniquely determines the point.\\
+
+  We've shown in case 1 that iff $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$ then $BE,AD,CF$ are concurrent.
+
+
+  \textbf{Case 2:} Point of intersection is outside the triangle $\triangle ABC$.\\
+  
+  Follow the same proof as before, but note that some of the ratios are negative.
+
+  In the following example where P is not enclosed by $\triangle ABC$:
+
+  \[
+    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = -ve\cdot -ve\cdot +ve
+  \]
+
+\begin{center}
+\begin{figure}
+\begin{center}
+% Generated with LaTeXDraw 2.0.8
+% Mon Aug 12 15:14:28 EST 2013
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-3.1)(7.74,3.08)
+\pspolygon[linewidth=0.04](0.2,-2.6)(4.22,-2.6)(2.0,0.56)
+\usefont{T1}{ptm}{m}{n}
+\rput(1.89,0.825){A}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.12,-2.795){B}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.2,-2.935){C}
+\psdots[dotsize=0.12](6.32,-2.6)
+\psdots[dotsize=0.12](2.94,-0.76)
+\psdots[dotsize=0.12](3.0,0.56)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](2.6,1.58)(4.22,-2.6)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](6.32,-2.6)(2.04,0.5)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.84,0.56)(0.24,-2.62)
+\usefont{T1}{ptm}{m}{n}
+\rput(6.33,-2.835){D}
+\usefont{T1}{ptm}{m}{n}
+\rput(2.61,-0.555){E}
+\usefont{T1}{ptm}{m}{n}
+\rput(2.38,1.745){F}
+\psdots[dotsize=0.12](3.38,-0.46)
+\usefont{T1}{ptm}{m}{n}
+\rput(3.82,-0.515){P}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(0.54,0.56)(5.24,0.56)
+\usefont{T1}{ptm}{m}{n}
+\rput(3.28,0.805){M}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.9,0.825){N}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(4.2,-2.6)(7.72,-2.6)
+\psline[linewidth=0.04cm](2.0,0.54)(3.44,3.06)
+\psdots[dotsize=0.12](2.6,1.56)
+\end{pspicture} 
+}
+\end{center}
+\caption{Proof of Ceva's theorem in the second case where P is exterior to $\triangle ABC$} %     title of the Figure
+\label{fig:ceva_case_1} % label to refer figure in text
+\end{figure}
+\end{center}
+  
   
  
 \end{proof}
+\end{cevastheorem}
 
+
+\begin{center}
+\begin{figure}
+\begin{center}
+\end{center}
+\caption{} %     title of the Figure
+\label{fig:} % label to refer figure in text
+\end{figure}
+\end{center}
+
+
+\newtheorem{menelaustheorem}{Menelaus's Theorem}
+\begin{menelaustheorem}
+
+Let $\triangle ABC$ be a triangle with $D,E,F$ on $BC,CA,AB$ or their extensions, Then $D,E,F$ are \textbf{collinear} if and only if
+
+\begin{align}
+    \frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA} = -1
+\end{align}
+
+\begin{proof}
+
+\begin{center}
+\begin{figure}
+\begin{center}
+% Generated with LaTeXDraw 2.0.8
+% Mon Aug 12 16:06:22 EST 2013
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-2.61)(10.64,2.61)
+\pstriangle[linewidth=0.04,dimen=outer](3.06,-2.21)(5.6,4.44)
+\psline[linewidth=0.04cm](5.82,-2.19)(10.62,-2.19)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](2.26,0.93)(7.96,-2.17)
+\usefont{T1}{ptm}{m}{n}
+\rput(3.11,2.415){A}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.12,-2.445){B}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.92,-2.445){C}
+\usefont{T1}{ptm}{m}{n}
+\rput(1.96,1.115){F}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.95,-0.145){E}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.33,-2.465){D}
+\psdots[dotsize=0.12](2.28,0.91)
+\psdots[dotsize=0.12](4.7,-0.39)
+\psdots[dotsize=0.12](7.98,-2.19)
+\end{pspicture} 
+}
+\end{center}
+\caption{Menelaus's Theorem on $\triangle ABC$} %     title of the Figure
+\label{fig:menelaus_1} % label to refer figure in text
+\end{figure}
+\end{center}
+  
+To proved that $D,E,F$ are collinear, use similar right-angled triangles.\\
+
+\begin{center}
+\begin{figure}
+\begin{center}
+% Generated with LaTeXDraw 2.0.8
+% Mon Aug 12 16:46:25 EST 2013
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-2.66)(10.64,2.66)
+\psline[linewidth=0.04cm](5.82,-2.24)(10.62,-2.24)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](0.78,1.72)(7.98,-2.22)
+\usefont{T1}{ptm}{m}{n}
+\rput(5.05,2.465){A}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.12,-2.495){B}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.92,-2.495){C}
+\usefont{T1}{ptm}{m}{n}
+\rput(2.58,0.365){F}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.75,-0.755){E}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.33,-2.515){D}
+\psdots[dotsize=0.12](3.1,0.46)
+\psdots[dotsize=0.12](5.58,-0.92)
+\psdots[dotsize=0.12](7.98,-2.24)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm,tbarsize=0.07055555cm 5.0]{-|}(0.26,-2.26)(2.02,1.06)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm,tbarsize=0.07055555cm 5.0]{-|*}(5.84,-2.28)(6.4,-1.36)
+\pspolygon[linewidth=0.04](2.02,1.04)(1.92,0.86)(2.1,0.76)(2.2,0.94)
+\pspolygon[linewidth=0.04](6.4,-1.36)(6.3,-1.54)(6.48,-1.64)(6.58,-1.46)
+\usefont{T1}{ptm}{m}{n}
+\rput(2.08,1.285){M}
+\usefont{T1}{ptm}{m}{n}
+\rput(6.52,-1.175){N}
+\pspolygon[linewidth=0.04](5.82,-2.24)(0.28,-2.24)(4.98,2.26)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.98,2.22)(3.74,0.08)
+\pspolygon[linewidth=0.04](3.84,0.28)(3.74,0.1)(3.92,0.0)(4.02,0.18)
+\usefont{T1}{ptm}{m}{n}
+\rput(3.73,-0.235){L}
+\end{pspicture} 
+}
+\end{center}
+\caption{Construct three similar right angled triangles} %     title of the Figure
+\label{fig:menelaus2} % label to refer figure in text
+\end{figure}
+\end{center}
+
+First suppose $D,E,F$ are collinear. Then
+
+\begin{align}
+\frac{AF}{FB}=\frac{AL}{MB}\textrm{ since }\triangle AFL\sim \triangle BFM\\
+\frac{BD}{DC}=\frac{BM}{NC}\textrm{ since }\triangle BDM\sim \triangle CDN\\
+\frac{CE}{EA}=\frac{CN}{LA}\textrm{ since }\triangle CEN\sim \triangle AEL
+\end{align}
+
+Multiplying the above together gives
+
+\begin{align}
+\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=\frac{AL}{MB}\cdot\frac{BM}{NC}\cdot\frac{CN}{LA}\\
+=(-1)^{3}=-1
+\end{align}
+
+\textbf{Case 2:} Where $DEF$ doesn't meet the triangle $\triangle ABC$.
+
+The proof for this is the same as above. This is left as an exercise to the reader.
+
+Conversely, suppose
+
+\begin{align}
+\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=-1
+\end{align}
+
+Define $EF\cap BC=D'$ (Aim to show $D=D'$).\\
+
+Then by the first part of this proof,
+
+\begin{align}
+\frac{AF}{FB}\cdot\frac{BD'}{D'C}\cdot\frac{CE}{EA}=-1
+\end{align}
+
+Equating the assumption and property above and cancelling
+
+\begin{align}
+\frac{AF}{FB}\cdot\frac{BD'}{D'C}\cdot\frac{CE}{EA}=\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}\\
+\frac{BD}{DC}=\frac{BD'}{D'C}
+\end{align}
+
+Hence $D=D'$ using the property that the ratio determines the point.
+
+Therefore if $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=-1$ then $D,E,F$ are collinear.
+
+\end{proof}
+\end{menelaustheorem}
 
 \end{Topic}
+
+
 
 \end{spacing}
 \end{document}

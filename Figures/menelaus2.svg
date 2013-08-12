@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow2-480">
+            <path
+                d="M -0.5 -3.3819444444444446 L -0.5 3.3819444444444446 "
+                latexdraw:tbarSizeNum="5.0" stroke="black" fill="none" stroke-width="1.0"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow2-481">
+            <path
+                d="M 0.0 -3.3819444444444446 L 0.0 3.3819444444444446 "
+                latexdraw:tbarSizeNum="5.0" stroke="black" fill="none" stroke-width="1.0"/>
+        </marker>
+    </defs>
+    <g>
+        <g latexdraw:type="line" id="id457">
+            <line x1="534.0" x2="774.0" y1="301.0" y2="301.0"
+                stroke-width="2.0" stroke="black" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="line" id="id458">
+            <line x1="282.0" x2="642.0" y1="103.0" y2="300.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="text" id="id459"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="489.0">
+            <text x="489.0" y="71.0"><![CDATA[A]]></text>
+        </g>
+        <g latexdraw:type="text" id="id462"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="243.0">
+            <text x="243.0" y="319.0"><![CDATA[B]]></text>
+        </g>
+        <g latexdraw:type="text" id="id465"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="533.0">
+            <text x="533.0" y="319.0"><![CDATA[C]]></text>
+        </g>
+        <g latexdraw:type="text" id="id468"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="367.0">
+            <text x="367.0" y="176.0"><![CDATA[F]]></text>
+        </g>
+        <g latexdraw:type="text" id="id471"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="525.0">
+            <text x="525.0" y="232.0"><![CDATA[E]]></text>
+        </g>
+        <g latexdraw:type="text" id="id474"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="653.0">
+            <text x="653.0" y="320.0"><![CDATA[D]]></text>
+        </g>
+        <g latexdraw:type="dot" id="id477" latexdraw:size="6.0"
+            latexdraw:dotShape="dot" latexdraw:position="398.0 166.0">
+            <circle r="3.0" fill="black" cx="398.0" cy="166.0"/>
+        </g>
+        <g latexdraw:type="dot" id="id478" latexdraw:size="6.0"
+            latexdraw:dotShape="dot" latexdraw:position="522.0 235.0">
+            <circle r="3.0" fill="black" cx="522.0" cy="235.0"/>
+        </g>
+        <g latexdraw:type="dot" id="id479" latexdraw:size="6.0"
+            latexdraw:dotShape="dot" latexdraw:position="642.0 301.0">
+            <circle r="3.0" fill="black" cx="642.0" cy="301.0"/>
+        </g>
+        <g latexdraw:type="line" id="id480">
+            <line x1="256.0" x2="344.0" y1="302.0" y2="136.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-480)"/>
+        </g>
+        <g latexdraw:type="line" id="id481">
+            <line x1="535.0" x2="563.0" y1="303.0" y2="257.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow2-481)"/>
+        </g>
+        <g latexdraw:type="polygon" id="id482">
+            <polygon
+                points="344.0,137.0 339.0,146.0 348.0,151.0 353.0,142.0 "
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="polygon" id="id483">
+            <polygon
+                points="563.0,257.0 558.0,266.0 567.0,271.0 572.0,262.0 "
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id484"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="339.0">
+            <text x="339.0" y="130.0"><![CDATA[M]]></text>
+        </g>
+        <g latexdraw:type="text" id="id487"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="562.0">
+            <text x="562.0" y="253.0"><![CDATA[N]]></text>
+        </g>
+        <g latexdraw:type="polygon" id="id490">
+            <polygon points="534.0,301.0 257.0,301.0 492.0,76.0 "
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="line" id="id491">
+            <line x1="492.0" x2="430.0" y1="78.0" y2="185.0"
+                stroke-width="2.0" stroke="black"
+                stroke-dasharray="8.0, 8.0" latexdraw:rotationAngle="0.0"/>
+        </g>
+        <g latexdraw:type="polygon" id="id492">
+            <polygon
+                points="435.0,175.0 430.0,184.0 439.0,189.0 444.0,180.0 "
+                stroke-width="2.0" stroke="black" fill="none"/>
+        </g>
+        <g latexdraw:type="text" id="id493"
+            font-family="Times New Roman" fill="black" font-size="18" latexdraw:x="424.0">
+            <text x="424.0" y="206.0"><![CDATA[L]]></text>
+        </g>
+    </g>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:displayBorders>false</latexdraw:displayBorders>
+            <latexdraw:autoAdjust>true</latexdraw:autoAdjust>
+            <latexdraw:ppc>50</latexdraw:ppc>
+            <latexdraw:zoom>1.75</latexdraw:zoom>
+            <latexdraw:unit>cm</latexdraw:unit>
+            <latexdraw:classicGrid>false</latexdraw:classicGrid>
+            <latexdraw:gridGap>10</latexdraw:gridGap>
+            <latexdraw:code>0</latexdraw:code>
+            <latexdraw:displayGrid>true</latexdraw:displayGrid>
+            <latexdraw:magneticGrid>false</latexdraw:magneticGrid>
+            <latexdraw:autoUpdate>true</latexdraw:autoUpdate>
+            <latexdraw:version>2.0.8</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1233</latexdraw:width>
+                <latexdraw:height>778</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>0</latexdraw:x>
+                <latexdraw:y>22</latexdraw:y>
+            </latexdraw:position>
+            <latexdraw:dividerPosition>0.7956204379562044</latexdraw:dividerPosition>
+            <latexdraw:displayCodePanel>true</latexdraw:displayCodePanel>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:delimitorOpacity>130</latexdraw:delimitorOpacity>
+        </latexdraw:metadata>
+    </metadata>
+</svg>
